@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+
+#apeach-block {
+  align-items: center;
+  display: flex;
+  justify-items: center;
+  height: 600px;
+  width: 600px;
+  position: relative;
+}
+
+#apeach-head {
+  background-color: #f4c9c9;
+  border: 4px solid #000000;
+  height: 300px;
+  width: 300px;
+  transform: rotate(-40deg) skewX(11deg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  border-top-right-radius: 10px; /*머리 끝*/
+  border-bottom-left-radius: 176px; /* 턱 */
+  border-bottom-right-radius: 120px; /* 오른쪽 볼 */
+  border-top-left-radius: 120px; /* 왼쪽 볼 */
+}
+
+.eyes-wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 43%;
+  width: 100%;
+}
+.eye {
+  align-items: center;
+  background-color: #ffffff;
+  border: 3px solid #000000;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  height: 20px;
+  overflow: hidden;
+  margin: 0 19px;
+  width: 100px;
+}
+.eye-black {
+  background-color: #000000;
+  border-radius: 50%;
+  height: 31px;
+  width: 35px;
+}
+#apeach-block {
+  align-items: center;
+  display: flex;
+  justify-items: center;
+  height: 600px;
+  width: 600px;
+  position: relative;
+}
+#apeach-head {
+  background-color: #f4c9c9;
+  border: 4px solid #000000;
+  height: 300px;
+  width: 300px;
+  transform: rotate(-40deg) skewX(11deg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  border-top-right-radius: 10px; /* 머리 끝 */
+  border-bottom-left-radius: 176px; /* 턱 */
+  border-bottom-right-radius: 120px; /* 오른쪽 볼 */
+  border-top-left-radius: 120px; /* 왼쪽 볼 */
+}
+.eyes-wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 43%;
+  width: 100%;
+}
+.eye {
+  align-items: center;
+  background-color: #ffffff;
+  border: 3px solid #000000;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  height: 35px;
+  overflow: hidden;
+  margin: 0 19px;
+  width: 100px;
+}
+.eye-black {
+  background-color: #000000;
+  border-radius: 50%;
+  height: 31px;
+  width: 20px;
+}
+.mouth-wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 57%;
+  width: 100%;
+}
+.mouth {
+  background-color: #ffffff;
+  border: 3px solid #000000;
+  border-radius: 51%;
+  height: 19px;
+  width: 54px;
+}
+.mouth-wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 57%;
+  width: 100%;
+}
+.mouth {
+  background-color: #ffffff;
+  border: 3px solid #000000;
+  border-radius: 51%;
+  height: 19px;
+  width: 54px;
+}
