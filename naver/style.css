@@ -1,0 +1,401 @@
+.first{
+    padding: 0px 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    background-color: white;
+}
+
+.information{
+    padding: 0px 14px 0px 13px;
+    font-size: 14px;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+}
+
+.information span{
+    margin: 0px 14px 0px 13px;
+    font-weight: 500;
+}
+
+.lenguege span{
+    margin: 0px 7px 0px 7px;
+}
+
+.name{
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.lenguege{
+    font-size: 14px;
+    display: flex;
+    justify-content: space-around;
+}
+
+body{
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+main {
+    margin-top: 60px;
+    width: 100%;
+    height: 100%;
+}
+
+.video{
+    width: 100%;
+    height: 800px;
+    margin: 0;
+    position: relative;
+
+}
+
+.textbox p{
+    font-size: 42px;
+    font-weight: bold;
+    color: white;
+    margin: 0px;
+}
+
+.textbox{
+    position: absolute;
+    left: 100px;
+    top: 130px;
+}
+
+.video video {
+    width: 100%;
+    position: absolute;
+}
+
+.lioncard{
+    width: 1316px;
+    height: 682px;
+    background-color: #F4F4F4;
+    padding: 53px 53px 0px;
+    margin: 85px 80px;
+    border-radius: 30px;
+}
+
+.lioncard p{
+    margin: 0px;
+}
+
+.see{
+    font-size: 42px;
+    font-weight: bolder;
+}
+
+.saw{
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.like{
+    margin: 25px 0px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.like span :hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.like img{
+    padding-right: 0.28rem;
+}
+
+.like span :hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.lion{
+    padding-left: 0px;
+    margin-top: 60px;
+}
+
+.lion video{
+    width: 1250px;
+    height: 319px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.write{
+    width: 1316px;
+    height: 682px;
+    background-color: #F4F4F4;
+    padding: 53px 53px 0px;
+    margin: 85px 80px;
+    border-radius: 30px;
+}
+
+.history{
+    display: flex;
+    align-items: center;
+    margin: 25px 0px 0px;
+}
+
+.road{
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.story{
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.write p{
+    margin: 0px;
+}
+
+.write span :hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.history img{
+    padding-right: 0.28rem;
+}
+
+.pictures img{
+    width: 884px;
+    height: 358px;
+    margin-left: 320px;
+}
+
+.person img{
+    width: 359px;
+    height: 201px;
+    margin: 0px 20px 32px 0px;
+}
+
+.person p{
+    margin: 0px 20px;
+}
+
+.Profit{
+    width: 100%;
+    height: 800px;
+    padding: 35px 60px;
+    display: grid;
+    grid-template-rows: repeat(2, 400px);
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.press{
+    width: 360px;
+    height: 104px;
+    padding: 0px 20px;
+}
+
+.press p{
+    margin: 0px;
+}
+
+.stockprice{
+    padding: 0px 20px;
+}
+
+.money{
+    font-size: 18px;
+    padding: 18px 0px 0px;
+    font-weight: bold;
+}
+
+.money :hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.Sales{
+    font-size: 13px;
+    padding: 8px;
+    color: #666666;
+}
+
+.num{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.number img{
+    margin: 19px 0px 0px 18px;
+}
+
+.number{
+    font-size: 20px;
+    color: #003CFF;
+}
+
+.time{
+    font-size: 12px;
+}
+
+.privacy{
+    padding: 0px 20px;
+}
+
+.privacy p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.privacy p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.fun{
+    font-size: 20px;
+    margin: 0px;
+    margin: 32px 0px 0px 0px;
+    font-weight: bolder;
+}
+
+.fun :hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.fun2{
+    margin: 0px 0px 8px 0px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.fun2 :hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.service{
+    font-size: 12px;
+    margin: 0px;
+    color: #666666;
+    padding: 2px;
+}
+
+.TECH span{
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 0px 20px 8px 20px;
+}
+
+.TECH :hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.TECH p{
+    margin: 0px 20px;
+}
+
+.donate{
+    font-size: 12px;
+    color: #666666;
+    margin: 0px;
+    padding: 2px;
+}
+
+.TECH img{
+    margin: 0px 20px 32px 20px;
+    width: 359px;
+    height: 201px;
+}
+
+.introduce{
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 0px;
+}
+
+.happy img{
+    margin: 0px 20px 32px 20px;
+    width: 359px;
+    height: 201px;
+}
+
+.introduce p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.introduce2 p:hover{
+    cursor: wait;
+    text-decoration: underline;
+}
+
+.happy p{
+    margin: 0px 20px;
+}
+
+.UN{
+    font-size: 12px;
+    margin: 0px;
+    color: #666666;
+    padding: 2px;
+}
+
+.introduce2{
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 0px 0px 8px 0px;
+}
+
+.final{
+    height: 100px;
+    width: 100%;
+    padding: 22px 80px 0px;
+    border-top-style: solid;
+    border-top-width: thin;
+    border-top-color: #666666;
+    margin: 50px 0px 0px 0px;
+}
+
+.final span{
+    font-size: 12px;
+    margin: 0px 12px 8px 12px;
+    cursor: pointer;
+}
+
+.final p{
+    margin: 0px;
+    padding: 2px;
+    font-size: 12px;
+}
+
+.black{
+    font-weight: bolder;
+}
+
+footer{
+    bottom: 0px;
+}
+
+.site{
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    border-bottom-color: black;
+    font-size: 12px;
+    width: 160px;
+    height: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*kendnjdvnsdbvdbjvbdjsdbbjdsbjdbbjkbvbvjsjbjbjovhohsdhoghhgjsdvsdj
+/*살려주세요 졸려요*/
